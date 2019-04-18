@@ -4,5 +4,10 @@ body {
 }
 
 h1 {
-  font-family: sans-serif;
+  @font-face {
+    font-family: "allura";
+    src: url('Allura-Regular.ttf');
+}
+}
+
 }
