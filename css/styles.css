@@ -1,13 +1,9 @@
 
+
 body {
   background-color: #e3dcf2;
 }
 
-h1 {
-  @font-face {
-    font-family: "allura";
-    src: url('Allura-Regular.ttf');
-}
-}
+h1 { font-family: 'black-jack'
 
 }
