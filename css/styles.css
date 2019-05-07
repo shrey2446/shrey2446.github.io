@@ -8,16 +8,58 @@ h1 {
   font-family: 'black_jackregular';
   font-size: 200px;
   color: #ffffff;
-  position:relative;
+  position: relative;
   text-align: center;
   top: 50%
 
 }
 
-img {
+.image1 {
   position: absolute;
-  top: 0px;
+  top: 30px;
   left: 0px;
-  height: 33%;
-  width: 33%;
+  height: 250px;
+  width: auto;
+}
+
+.image2 {
+  position: absolute;
+  top: 40px;
+  left: 450px;
+  height: 400px;
+  width: 500px;
+}
+
+
+.image3 {
+  position: absolute;
+  top: 290px;
+  left: 15px;
+  height: 350px;
+  width: 427px;
+}
+
+.image4 {
+  position: absolute;
+  top: 20px;
+  right: 32px;
+  height: 300px;
+  width: 450px;
+}
+
+
+.image5 {
+  position: absolute;
+  bottom: 30px;
+  right: 0px;
+  height: 400px;
+  width: 483px;
+}
+
+.image6 {
+  position: absolute;
+  bottom: 10px;
+  left: 450px;
+  height: 300px;
+  width: 500px;
 }
