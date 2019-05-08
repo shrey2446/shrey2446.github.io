@@ -10,8 +10,134 @@ h1 {
   color: #ffffff;
   position: relative;
   text-align: center;
-  top: 50%
+  top: 50%;
+  z-index: 3;
+}
 
+.t1 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 530px;
+  left: 30px;
+}
+
+.t2 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 30px;
+  left: 430px;
+}
+
+.t3 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 100px;
+  left: 800px;
+}
+
+.t4 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 500px;
+  left: 700px;
+}
+
+.t5 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 500px;
+  left: 1200px;
+}
+
+.t6 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 600px;
+  left: 280px;
+}
+
+.t7 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 200px;
+  left: 1100px;
+}
+
+.t8 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
+
+.t9 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+.t10 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 330px;
+  left: 170px;
+}
+
+.t11 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 1200px;
+}
+
+.t12 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 530px;
+  left: 30px;
+}
+
+.t13 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 530px;
+  left: 30px;
+}
+
+.t14 {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 530px;
+  left: 30px;
 }
 
 .image1 {
@@ -42,23 +168,22 @@ h1 {
 .image4 {
   position: absolute;
   top: 20px;
-  right: 32px;
+  left: 960px;
   height: 300px;
   width: 450px;
 }
 
-
 .image5 {
   position: absolute;
-  bottom: 30px;
-  right: 0px;
+  top: 330px;
+  left: 960px;
   height: 400px;
   width: 483px;
 }
 
 .image6 {
   position: absolute;
-  bottom: 10px;
+  top: 450px;
   left: 450px;
   height: 300px;
   width: 500px;
