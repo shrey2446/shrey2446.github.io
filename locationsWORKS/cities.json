@@ -1,0 +1,269 @@
+{
+  "cities": [
+    {
+      "name" : "Pune",
+      "longitude": 18.5204,
+      "latitude": 73.8567
+    },
+    {
+      "name" : "Mumbai",
+      "longitude": 19.0760,
+      "latitude": 72.8777
+    },
+    {
+      "name" : "Bangalore",
+      "longitude": 12.9716,
+      "latitude": 77.5946
+    },
+    {
+      "name" : "Hyderabad",
+      "longitude": 17.3850,
+      "latitude": 78.4867
+    },
+    {
+      "name" : "Delhi",
+      "longitude": 28.7041,
+      "latitude": 77.1025
+    },
+    {
+      "name" : "Ahmedabad",
+      "longitude": 23.0225,
+      "latitude": 72.5714
+    },
+    {
+      "name" : "Goa",
+      "longitude": 15.2993,
+      "latitude": 74.1240
+    },
+    {
+      "name" : "Nashik",
+      "longitude": 19.9975,
+      "latitude": 73.7898
+    },
+    {
+      "name" : "Mahabaleshwar",
+      "longitude": 17.9307,
+      "latitude": 73.6477
+    },
+    {
+      "name" : "Jaipur",
+      "longitude": 26.9124,
+      "latitude": 75.7873
+    },
+    {
+      "name" : "Udaipur",
+      "longitude": 24.5854,
+      "latitude": 73.7125
+    },
+    {
+      "name" : "Agra",
+      "longitude": 27.1767,
+      "latitude": 78.0081
+    },
+    {
+      "name" : "Mussoorie",
+      "longitude": 30.4598,
+      "latitude": 78.0644
+    },
+    {
+      "name" : "Leh",
+      "longitude": 34.1526,
+      "latitude": 77.577
+    },
+    {
+      "name" : "Ladakh",
+      "longitude": 34.2996,
+      "latitude": 78.2932
+    },
+    {
+      "name" : "Gangtok",
+      "longitude": 27.3314,
+      "latitude": 88.6138
+    },
+    {
+      "name" : "Darjeeling",
+      "longitude": 27.0410,
+      "latitude": 88.2663
+    },
+    {
+      "name" : "Bangkok",
+      "longitude": 13.7563,
+      "latitude": 100.5018
+    },
+    {
+      "name" : "Phuket",
+      "longitude": 7.9519,
+      "latitude": 98.3381
+    },
+    {
+      "name" : "Krabi",
+      "longitude": 8.0863,
+      "latitude": 98.9063
+    },
+    {
+      "name" : "Seoul",
+      "longitude": 37.5665,
+      "latitude": 126.9780
+    },
+    {
+      "name" : "Guangzhou",
+      "longitude": 23.1291,
+      "latitude": 113.2644
+    },
+    {
+      "name" : "Paris",
+      "longitude": 48.8566,
+      "latitude": 2.3522
+    },
+    {
+      "name" : "Rome",
+      "longitude": 41.9028,
+      "latitude": 12.4964
+    },
+    {
+      "name" : "Florence",
+      "longitude": 43.7696,
+      "latitude": 11.2558
+    },
+    {
+      "name" : "Venice",
+      "longitude": 45.4408,
+      "latitude": 12.3155
+    },
+    {
+      "name" : "Amsterdam",
+      "longitude": 52.3667,
+      "latitude": 4.8945
+    },
+    {
+      "name" : "Frankfurt",
+      "longitude": 50.1109,
+      "latitude": 8.6821
+    },
+    {
+      "name" : "Munich",
+      "longitude": 48.1351,
+      "latitude": 11.5820
+    },
+    {
+      "name" : "Stuttgart",
+      "longitude": 48.7758,
+      "latitude": 9.1829
+    },
+    {
+      "name" : "Cologne",
+      "longitude": 50.9375,
+      "latitude": 6.9603
+    },
+    {
+      "name" : "Brussels",
+      "longitude": 50.8503,
+      "latitude": 4.3517
+    },
+    {
+      "name" : "Black Forest",
+      "longitude": 48.2775,
+      "latitude": 8.1860
+    },
+    {
+      "name" : "Switzerland",
+      "longitude": 46.8182,
+      "latitude": 8.2275
+    },
+    {
+      "name" : "Istanbul",
+      "longitude": 41.0082,
+      "latitude": 28.9784
+    },
+    {
+      "name" : "Izmir",
+      "longitude": 38.4237,
+      "latitude": 27.1428
+    },
+    {
+      "name" : "Antalya",
+      "longitude": 36.8969,
+      "latitude": 30.7133
+    },
+    {
+      "name" : "Cappadocia",
+      "longitude": 38.3535,
+      "latitude": 35.0911
+    },
+    {
+      "name" : "Dubai",
+      "longitude": 25.2048,
+      "latitude": 55.2708
+    },
+    {
+      "name" : "Mauritius",
+      "longitude": 20.3484,
+      "latitude": 57.5522
+    },
+    {
+      "name" : "Chicago",
+      "longitude": 41.8781,
+      "latitude": -87.6298
+    },
+    {
+      "name" : "Wheeling IL",
+      "longitude": 42.1392,
+      "latitude": -87.9290
+    },
+    {
+      "name" : "Lafayette IN",
+      "longitude": 40.4259,
+      "latitude": -86.9081
+    },
+    {
+      "name" : "New York",
+      "longitude": 40.7128,
+      "latitude": -74.0060
+    },
+    {
+      "name" : "Los Angeles",
+      "longitude": 34.0522,
+      "latitude": -118.2437
+    },
+    {
+      "name" : "San Diego",
+      "longitude": 32.7157,
+      "latitude": -117.1611
+    },
+    {
+      "name" : "San Francisco",
+      "longitude": 37.7749,
+      "latitude": -122.4194
+    },
+    {
+      "name" : "San Jose",
+      "longitude": 37.3382,
+      "latitude": -121.8863
+    },
+    {
+      "name" : "Orlando",
+      "longitude": 28.5383,
+      "latitude": -81.3792
+    },
+    {
+      "name" : "Anaheim CA",
+      "longitude": 33.8366,
+      "latitude": -117.9143
+    },
+    {
+      "name" : "Las Vagas",
+      "longitude": 36.1699,
+      "latitude": -115.1398
+    },
+    {
+      "name" : "London",
+      "longitude": 51.5074,
+      "latitude": 0.1278
+    },
+    {
+      "name" : "Jaipur",
+      "longitude": 26.9124,
+      "latitude": 75.7873
+    }
+  ]
+}
