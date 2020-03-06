@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- main a-frame library -->
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    <!-- physics library -->
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+    <!-- particle system library -->
+    <!-- <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script> -->
+    <!-- environment library -->
+    <!-- <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script> -->
+    <!-- text geometry library -->
+    <script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
+    <!-- extras library -->
+    <!-- <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+  </head> -->
+<body>
+  <a-scene>
+    <a-assets>
+    <img id="skyTexture" src="images/sky.png">
+    <img id="h" src="images/h1.jpeg">
+    <img id="a1" src="images/a1.png">
+    <img id="a2" src="images/a2.png">
+    <img id="a3" src="images/a3.png">
+    <img id="a4" src="images/a4.png">
+    <img id="a5" src="images/a5.png">
+    <img id="a6" src="images/a6.png">
+    <img id="a7" src="images/a7.png">
+    <img id="a8" src="images/a8.png">
+    <img id="a9" src="images/a9.png">
+    <img id="a10" src="images/a10.png">
+    <img id="a11" src="images/a11.png">
+    <img id="a12" src="images/a12.png">
+    <img id="a13" src="images/a13.png">
+    <img id="a14" src="images/a14.png">
+    <img id="a15" src="images/a15.png">
+    <img id="a16" src="images/a16.png">
+    <img id="a17" src="images/a17.png">
+    <img id="a18" src="images/a18.png">
+    <img id="a19" src="images/a19.png">
+    <img id="a20" src="images/a20.png">
+    <img id="p3" src="images/p3.JPG">
+    <img id="p4" src="images/p4.JPG">
+    <img id="p5" src="images/p5.JPG">
+    <img id="p7" src="images/p7.JPG">
+    <img id="p8" src="images/p8.JPG">
+    <img id="p9" src="images/p9.JPG">
+    <img id="om" src="images/om.png">
+    <img id="red" src="images/lal.png">
+    <audio id="audio" src="inqalaab.mp3" preload="auto"></audio>
+  </a-assets>
+
+  <a-entity id="cameraRig" wasd-controls movement-controls>
+    <a-entity camera look-controls position="0 1.7 0"></a-entity>
+  </a-entity>
+  <a-entity static-body
+    geometry="primitive: plane"
+    scale="30 30 30" rotation="-90 0 0"
+    position="0 0.28896 -4.1238" material="color: #ff4500">
+  </a-entity>
+  <a-image src="#h" width="10" height="5" position="0 3 -10">
+  </a-image>
+  <a-entity text-geometry="value: LIE TO ME LIE TO ME LIE TO ME LIE TO ME LIE TO ME"
+  position="-8 7 -10" material="color: #ffffff">
+  </a-entity>
+  <a-entity text-geometry="value: LIE TO ME LIE TO ME LIE TO ME LIE TO ME LIE TO ME"
+  position="-8 6 -10" material="color: #ffffff">
+  </a-entity>
+  <a-entity text-geometry="value: LIE TO ME LIE TO ME LIE TO ME LIE TO ME LIE TO ME"
+  position="-8 5 -10" material="color: #ffffff">
+  </a-entity>
+  <a-entity text-geometry="value: LIE TO ME LIE TO ME LIE TO ME LIE TO ME LIE TO ME"
+  position="-8 4 -10" material="color: #ffffff">
+  </a-entity>
+  <a-entity text-geometry="value: LIE TO ME LIE TO ME LIE TO ME LIE TO ME LIE TO ME"
+  position="-8 3 -10" material="color: #ffffff">
+  </a-entity>
+  <a-entity text-geometry="value: LIE TO ME LIE TO ME LIE TO ME LIE TO ME LIE TO ME"
+  position="-8 2 -10" material="color: #ffffff">
+  </a-entity>
+  <a-entity text-geometry="value: LIE TO ME LIE TO ME LIE TO ME LIE TO ME LIE TO ME"
+  position="-8 1 -10" material="color: #ffffff">
+  </a-entity>
+  <a-image src="#a1" width="5" height="3" position="10 10 -11">
+  </a-image>
+  <a-image src="#a2" width="5" height="3" position="-10 10 -11">
+  </a-image>
+  <a-image src="#a3" width="5" height="3" position="10 5 -11">
+  </a-image>
+  <a-image src="#a4" width="5" height="3" position="-10 5 -11">
+  </a-image>
+  <a-image src="#a5" width="5" height="3" position="0 10 -11">
+  </a-image>
+  <a-image src="#a6" width="5" height="3" position="10 7 -7">
+  </a-image>
+  <a-image src="#a7" width="5" height="3" position="-10 7 -7">
+  </a-image>
+  <a-image src="#a8" width="5" height="3" position="6 3 -5">
+  </a-image>
+  <a-image src="#a9" width="5" height="3" position="-6 3 -5">
+  </a-image>
+  <a-image src="#a10" width="5" height="3" position="0 6 -3">
+  </a-image>
+  <a-image src="#a11" width="5" height="3" position="5 4 -1">
+  </a-image>
+  <a-image src="#a12" width="5" height="3" position="-5 4 -1">
+  </a-image>
+  <a-image src="#a13" width="5" height="3" position="7 6 2">
+  </a-image>
+  <a-image src="#a14" width="5" height="3" position="-7 6 2">
+  </a-image>
+  <a-image src="#a15" width="5" height="3" position="10 3 5">
+  </a-image>
+  <a-image src="#a16" width="5" height="3" position="-10 3 5">
+  </a-image>
+  <a-image src="#a17" width="5" height="3" position="0 7 7">
+  </a-image>
+  <a-image src="#a18" width="5" height="3" position="-7 6 7">
+  </a-image>
+  <a-image src="#a19" width="5" height="3" position="7 6 7">
+  </a-image>
+  <a-image src="#a20" width="5" height="3" position="0 4 10">
+  </a-image>
+
+  <a-entity geometry="primitive: box"
+  scale="1 1 1;"
+  rotation = "0 0 0"
+  position="-3 1.80928 -9"
+  material="src: #p3"> </a-entity>
+  <a-entity geometry="primitive: box"
+  scale="1 1 1;"
+  rotation = "0 0 0"
+  position="5 1.80928 -6"
+  material="src: #p4"> </a-entity>
+  <a-entity geometry="primitive: box"
+  scale="1 1 1;"
+  rotation = "0 0 0"
+  position="-8 1.80928 -6"
+  material="src: #p5"> </a-entity>
+  <a-entity geometry="primitive: box"
+  scale="1 1 1;"
+  rotation = "0 0 0"
+  position="8 1.80928 -3"
+  material="src: #p7"> </a-entity>
+  <a-entity geometry="primitive: box"
+  scale="1 1 1;"
+  rotation = "0 0 0"
+  position="-4 1.80928 2"
+  material="src: #p8"> </a-entity>
+  <a-entity geometry="primitive: box"
+  scale="1 1 1;"
+  rotation = "0 0 0"
+  position="0 1.80928 -1"
+  material="src: #p9"> </a-entity>
+  <a-entity text-geometry="value: OK SANGHI"
+  position="-2 15 0" material="color: #ffffff">
+  </a-entity>
+  <a-image src="#om" width="10" height="8" position="0 5 -20">
+  </a-image>
+  <a-image src="#red" width="4" height="4" position="0 3 25">
+  </a-image>
+
+  <a-entity id="audio" geometry="primitive: plane" material="color: orange"
+          position="-10 0 0" sound="src: #audio; autoplay: true"></a-entity>
+
+  <a-sky src="#skyTexture"></a-sky>
+
+  </a-scene>
+</body>
