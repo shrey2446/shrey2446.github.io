@@ -1,0 +1,26 @@
+{
+"locations":
+
+  [
+    {
+      "place": "Walgreens",
+      "time": "11:34 am",
+      "longitude": 500,
+      "latitude": 100
+
+    },
+    {
+      "place": "MCA",
+      "time": "2:18 pm",
+      "longitude": 200,
+      "latitude": 300
+    },
+    {
+      "place": "DMV",
+      "time": "3:52 pm",
+      "longitude": 700,
+      "latitude": 450
+    }
+
+    ]
+}
