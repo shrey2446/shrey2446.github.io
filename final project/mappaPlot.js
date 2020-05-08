@@ -23,6 +23,7 @@ let locationsArray;
 var lon;
 var lat;
 var place;
+let link;
 var x;
 var y;
 
@@ -78,13 +79,14 @@ function drawLocations() {
 
     place = locationsArray[i].name;
 
+    link = locationsArray[i].link;
 
     if (myMap.map.getBounds().contains({lat: lat, lng: lon})) {
       // Transform lat/lng to pixel position
       const pos = myMap.latLngToPixel(lat, lon);
       //  const posPick = myMap.latLngToPixel(latitudePick, longitudePick);
       //populate the ridesArray with Rides objects for each ride
-      locationsObject.push(new Locations(pos.x, pos.y, place));
+      locationsObject.push(new Locations(pos.x, pos.y, place, link));
       //ridesArray.push(new Rides(posPick.x, posPick.y, posDrop.x, posDrop.y, pickupTime));
     }
 
@@ -96,6 +98,15 @@ function drawLocations() {
 
 }
 
+function mouseReleased() {
+  for(let i = 0; i < locationsObject.length; i++){
+    if(dist(mouseX, mouseY, locationsObject[i].x, locationsObject[i].y) < 10){
+      window.open(locationsObject[i].l, "_blank");
+    }
+
+  }
+
+}
 
 //Locations class
 class Locations {
@@ -103,10 +114,11 @@ class Locations {
   //this data is being injected with the
   //locationsArray.push(new Locations(pos.x, pos.y, place));
   //code above to create a new and unique object for each location
-  constructor(x, y, n) {
+  constructor(x, y, n, l) {
     this.x = x;
     this.y = y;
     this.n = n;
+    this.l = l;
 
   }
 
@@ -124,14 +136,8 @@ class Locations {
     if(dist(mouseX, mouseY, this.x, this.y) < 10){
       text(this.n, this.x+10, this.y+10);
     }
-//    mousePressed(){
-//      if (true) {
-
-//    } else {
-
-//      }
-    }
-
 
   }
+
+
 }
