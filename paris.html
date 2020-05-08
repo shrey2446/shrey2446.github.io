@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>paris</title>
+    <!-- main a-frame library -->
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    <!-- physics library -->
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+    <!-- particle system library -->
+    <!-- <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script> -->
+    <!-- environment library -->
+    <!-- <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script> -->
+    <!-- text geometry library -->
+    <script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
+    <!-- extras library -->
+    <!-- <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script> -->
+  </head>
+<body>
+  <a-scene>
+    <a-assets>
+    <img id="skyTexture" src="images/parissky.jpg">
+    <audio id="audio" src="sounds/parisaudio.mp3" preload="auto"></audio>
+  </a-assets>
+
+  <a-entity id="cameraRig" wasd-controls movement-controls>
+    <a-entity camera look-controls position="0 1.7 0"></a-entity>
+  </a-entity>
+  <a-entity static-body
+    geometry="primitive: plane"
+    scale="30 30 30" rotation="-90 0 0"
+    position="0 0.28896 -4.1238" material="color: #3258a8">
+  </a-entity>
+  <a-entity text-geometry="value: we kept running but we still didn't finish the list"
+  position="-8 7 -10" material="color: #ffffff">
+  </a-entity>
+  <a-entity text-geometry="value: you refused to do what I wanted"
+  position="-8 5 0" material="color: #ffffff">
+  </a-entity>
+  <a-entity text-geometry="value: bruh... the guilt trip."
+  position="7 3 10" material="color: #ffffff">
+  </a-entity>
+  <a-entity
+  position="0 5 0"
+  animation= "property: rotation;
+              to: 0 360 0;
+              dur: 5000;
+              easing: linear;
+              loop: true;">
+
+      <a-entity geometry="primitive: sphere"
+      radius="1;"
+      position="0 1 15"
+      material="src: #pluto"
+      animation="property: rotation;
+             to: 0 360 0;
+             dur: 1000;
+             easing: linear;
+             loop: true;">
+      </a-entity>
+  </a-entity>
+
+  <a-entity geometry="primitive: box"
+  scale="5 5 5;"
+  rotation = "0 0 0"
+  position="-3 2 -9"
+  material="src: #p3"> </a-entity>
+  <a-entity geometry="primitive: box"
+  scale="1 1 1;"
+  rotation = "0 0 0"
+  position="5 5 -6"
+  material="src: #p4"> </a-entity>
+  <a-entity geometry="primitive: box"
+  scale="1 1 1;"
+  rotation = "0 0 0"
+  position="-8 1 -6"
+  material="src: #p5"> </a-entity>
+  <a-entity geometry="primitive: box"
+  scale="2 2 2;"
+  rotation = "0 0 0"
+  position="8 2 -3"
+  material="src: #p7"> </a-entity>
+  <a-entity geometry="primitive: box"
+  scale="1 1 1;"
+  rotation = "0 0 0"
+  position="-4 4 2"
+  material="src: #p8"> </a-entity>
+  <a-entity geometry="primitive: box"
+  scale="3 3 3;"
+  rotation = "0 0 0"
+  position="0 7 -1"
+  material="src: #p9"> </a-entity>
+
+  <a-entity id="audio" geometry="primitive: plane" material="color: #3258a8"
+          position="0 0 0" sound="src: #audio; autoplay: true"></a-entity>
+
+  <a-sky src="#skyTexture"></a-sky>
+
+  </a-scene>
+</body>

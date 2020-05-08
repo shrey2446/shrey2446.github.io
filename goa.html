@@ -1,0 +1,76 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>goa</title>
+  <!-- main a-frame library -->
+  <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+  <!-- physics library -->
+  <script src="https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+  <!-- particle system library -->
+  <!-- <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script> -->
+  <!-- environment library -->
+  <!-- <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script> -->
+  <!-- text geometry library -->
+  <script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
+  <!-- extras library -->
+  <!-- <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script> -->
+</head>
+
+<body>
+  <a-scene>
+    <a-assets>
+      <img id="skyTexture" src="images/goabeach.jpg">
+      <audio id="audio" src="sounds/goawaves.mp3" preload="auto"></audio>
+      <a-asset-item id="skull" src="/images/skull/10978_Skull_v2.obj"></a-asset-item>
+      <a-asset-item id="skullmtl" src="/images/skull/Blank.mtl"></a-asset-item>
+    </a-assets>
+
+    <a-entity id="cameraRig" wasd-controls movement-controls>
+      <a-entity camera look-controls position="0 1.7 25"></a-entity>
+    </a-entity>
+
+    <!-- <a-entity static-body
+    geometry="primitive: plane"
+    scale="30 30 30" rotation="-90 0 0"
+    position="0 0.28896 -4.1238" material="color: #f5dd9a">
+  </a-entity> -->
+    <!-- <a-entity text-geometry="value: we kept running but we still didn't finish the list"
+  position="-8 7 -10" material="color: #ffffff">
+  </a-entity> -->
+    <a-entity position="0 5 0" animation="property: rotation;
+              to: 0 360 0;
+              dur: 5000;
+              easing: linear;
+              loop: true;">
+      <a-entity obj-model="obj: #skull; mtl: #skullmtl" rotation="-90 0 90" scale="0.5 0.5 0.5" <!-- position="0 1 15" -->
+        <!-- animation="property: rotation;
+             to: 0 360 0;
+             dur: 1000;
+             easing: linear;
+             loop: true;"> -->
+      </a-entity>
+    </a-entity>
+
+    <a-entity position="3 -10 0" animation="property: rotation;
+              to: 0 360 0;
+              dur: 15000;
+              easing: linear;
+              loop: true;">
+      <a-entity obj-model="obj: #skull; mtl: #skullmtl" rotation="90 90 180" scale="0.1 0.1 0.1" position="-3 2 -9"> </a-entity>
+    </a-entity>
+    <a-entity obj-model="obj: #skull; mtl: #skullmtl" animation="property: position;
+  to: 14 12 -10;
+  dur: 8000;
+  easing: linear;
+  loop: true" rotation="180 180 0" scale="0.2 0.2 0.2" position="5 5 -6"> </a-entity>
+    <a-entity obj-model="obj: #skull; mtl: #skullmtl" rotation="245 45 0" scale="0.3 0.3 0.3" position="-8 -15 -6"> </a-entity>
+    <a-entity obj-model="obj: #skull; mtl: #skullmtl" rotation="60 120 45" scale="0.1 0.1 0.1" position="8 2 -3" material="src: #p7"> </a-entity>
+
+
+    <a-entity id="audio" geometry="primitive: plane" material="color: #f5dd9a" position="0 0 0" sound="src: #audio; autoplay: true"></a-entity>
+
+    <a-sky src="#skyTexture"></a-sky>
+
+  </a-scene>
+</body>
